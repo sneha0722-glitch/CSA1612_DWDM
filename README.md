@@ -1,19 +1,23 @@
 # DWDM – Apriori and FP-Tree Web Application
 
-This project provides an interactive web interface to demonstrate frequent itemset mining using the Apriori algorithm and FP-Tree construction.
+This project provides an interactive browser-based demonstration of frequent itemset mining using Apriori and FP-Tree construction.
 
 ## Run
-Open `index.html` in a web browser. No server or installation is required.
+Open `index.html` in Chrome or Edge. No installation or server is required.
 
 ## Included
-- Interactive Apriori frequent itemset generation
-- Association rule generation
+- Apriori frequent itemset generation
+- Association rule generation (minimum confidence 80%)
 - FP-Tree visualization
-- Two sample datasets
-- Output screenshots in the `screenshots/` folder
+- Two sample transaction datasets
+- Dataset output preview images in `screenshots/`
 
 ## Parameters
-Minimum support count: 2  
-Minimum confidence: 80%
+- Minimum support count: 2
+- Minimum confidence: 80%
 
-See the screenshots folder for sample outputs.
+## Output previews
+- [Dataset 1 output preview](screenshots/dataset1-output.svg)
+- [Dataset 2 output preview](screenshots/dataset2-output.svg)
+
+**Note:** The previews are illustrative layout previews. Run `index.html` to see the live calculated results for each dataset.
